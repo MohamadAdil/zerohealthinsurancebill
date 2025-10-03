@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary (Butterfly Bush tone) */
+  --color-primary-50: #f1f1fc;
+  --color-primary-100: #e5e6fa;
+  --color-primary-200: #d0d0f5;
+  --color-primary-300: #b4b3ee;
+  --color-primary-400: #9d95e4;
+  --color-primary-500: #8a7ada;
+  --color-primary-600: #7a60cb;
+  --color-primary-700: #6a50b2;
+  --color-primary-800: #5e499d;
+  --color-primary-900: #483c73;
+  --color-primary-950: #2b2343;
+
+  /* Secondary (Green tone) */
+  --color-secondary-50: #ecfdf5;
+  --color-secondary-100: #d1fae5;
+  --color-secondary-200: #a7f3d0;
+  --color-secondary-300: #6ee7b7;
+  --color-secondary-400: #34d399;
+  --color-secondary-500: #10b981;
+  --color-secondary-600: #059669;
+  --color-secondary-700: #047857;
+  --color-secondary-800: #065f46;
+  --color-secondary-900: #064e3b;
+
+  /* Accent (Amber tone) */
+  --color-accent-50: #fffbeb;
+  --color-accent-100: #fef3c7;
+  --color-accent-200: #fde68a;
+  --color-accent-300: #fcd34d;
+  --color-accent-400: #fbbf24;
+  --color-accent-500: #f59e0b;
+  --color-accent-600: #d97706;
+  --color-accent-700: #b45309;
+  --color-accent-800: #92400e;
+  --color-accent-900: #78350f;
+}
+#__next-build-watcher,
+#__next-prerender-indicator {
+  display: none !important;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.testimonial-swiper .swiper-pagination {
+  position: unset;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.testimonial-swiper .swiper-pagination-bullet {
+  margin: 0 !important;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #CCCCCC;
+  transition: all 0.3s ease;
+}
+
+
+.testimonial-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 24px;
+  border-radius: 7px;
+  background: #051A6F;
+}
+.org-chart-container .org-chart-node {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px;
+}
